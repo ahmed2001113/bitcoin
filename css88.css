@@ -224,13 +224,13 @@ body {
     align-items: center;
   }
   @media (max-width:800px) {
-    .home-header {
-      display: flex;  /* Ensuring the header is always flex-displayed */
-      width: 100%;  /* Full width */
-      justify-content: space-between; /* Keeps items spaced properly */
-    }
+  .home-header {
+    display: flex;  /* Ensuring the header is always flex-displayed */
+    width: 100%;  /* Full width */
+    justify-content: space-between; /* Keeps items spaced properly */
   }
-  
+}
+
   .who-are-we {
     justify-content: flex-start;
     padding: var(--padding-xs) 0;
@@ -726,7 +726,7 @@ body {
     width: 100% !important;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
   .white-pappers-cards {
     width: 100% !important;
