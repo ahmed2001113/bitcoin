@@ -1764,6 +1764,7 @@ body {
   .header-app-settings-button-parent {
     position: fixed;
     top: 0;
+    margin-bottom: 70px;
     background-color: var(--sub-card);
     width: 100%;
     display: flex;
