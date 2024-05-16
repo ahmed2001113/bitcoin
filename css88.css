@@ -3,7 +3,7 @@ body {
     line-height: normal;
     padding: 0;
     scroll-behavior: smooth !important;
-    max-height: 100vh !important;
+    height: 100vh !important;
     overflow: hidden;
   }
   html{
@@ -1762,7 +1762,7 @@ body {
     flex-shrink: 0;
   }
   .header-app-settings-button-parent {
-    position: fixed;
+    position: absolute;
     top: 0;
     margin-bottom: 70px;
     background-color: var(--sub-card);
