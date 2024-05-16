@@ -1771,7 +1771,7 @@ body {
   }
   .header-app-settings-button-parent {
     position: absolute;
-    /* top: 0; */
+    top: 50px;
     margin-bottom: 70px;
     background-color: var(--sub-card);
     width: 100%;
