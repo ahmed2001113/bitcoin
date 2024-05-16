@@ -726,7 +726,7 @@ body {
     width: 100% !important;
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
   }
   .white-pappers-cards {
     width: 100% !important;
@@ -1771,7 +1771,7 @@ body {
   }
   .header-app-settings-button-parent {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     margin-bottom: 70px;
     background-color: var(--sub-card);
     width: 100%;
