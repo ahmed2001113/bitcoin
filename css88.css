@@ -1762,7 +1762,7 @@ body {
     flex-shrink: 0;
   }
   .header-app-settings-button-parent {
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: var(--sub-card);
     width: 100%;
