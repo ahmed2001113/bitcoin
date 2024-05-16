@@ -223,6 +223,14 @@ body {
     flex-direction: row;
     align-items: center;
   }
+  @media (max-width:800px) {
+    .home-header {
+      display: flex;  /* Ensuring the header is always flex-displayed */
+      width: 100%;  /* Full width */
+      justify-content: space-between; /* Keeps items spaced properly */
+    }
+  }
+  
   .who-are-we {
     justify-content: flex-start;
     padding: var(--padding-xs) 0;
