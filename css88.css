@@ -1026,6 +1026,7 @@ body {
     z-index: 1;
   }
   .btcle-details-mob,
+  .btcle-details-mobN,
   .btcle-details-mob2,
   .btcle-details-mob3,
   .smart-contract-0x9d2144328e1d-parent {
@@ -1040,6 +1041,9 @@ body {
   }
   .btcle-details-mob {
     width: 62%;
+  }
+  .btcle-details-mobN {
+    width: 100%;
   }
   .btcle-details-mob2 {
     width: 44%;
@@ -1308,7 +1312,7 @@ body {
   .our-vision-pic-mob {
     width: 100%;
     position: relative;
-    border-radius: var(--br-3xs);
+    border-radius: 36px;
     height: 170px;
     object-fit: cover;
   }
