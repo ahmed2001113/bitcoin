@@ -1042,7 +1042,7 @@ body {
     width: 62%;
   }
   .btcle-details-mob2 {
-    width: 47%;
+    width: 44%;
   }
   .btcle-details-mob3 {
     width: 50%;
@@ -1132,6 +1132,9 @@ body {
   .who-are-we-pic-2-mob {
     width: 100% !important;
   }
+  .who-are-we-pic-1-mob{
+    height: 122px !important;
+  }
   .who-are-we-pic-1-mob,
   .who-are-we-pic-2-mob {
     width: 50%;
@@ -1155,7 +1158,7 @@ body {
     gap: var(--gap-9xs);
   }
   .who-are-we-pic-mob {
-    width: 53%;
+    width: 56%;
     flex-direction: row;
   }
   .who-are-we18 {
