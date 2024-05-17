@@ -670,7 +670,7 @@
           </div>
         </div>
         <div id="parent1_m"></div>
-        <div class="btcle-details-mob" > 
+        <div class="btcle-details-mob2" > 
           <div class="who-are-we-header-mob">
             <div class="who-are-we18">Who Are We ?</div>
             <img class="who-are-we-line-mob" alt="" src="./public/who-are--we--line-mob.svg" />
@@ -1201,6 +1201,25 @@
         document.execCommand('copy');
         window.getSelection().removeAllRanges(); // Clear selection
     });
+</script>
+<script>
+  window.addEventListener('load', function() {
+    playVideo()
+  })
+   function playVideo() {
+        var video1m = document.getElementById('hero-video_1_m');
+        var video2m = document.getElementById('hero-video_2_m');
+        var video3m = document.getElementById('hero-video_3_m');
+        var video1 = document.getElementById('hero-video_1');
+        var video2 = document.getElementById('hero-video_2');
+        var video3 = document.getElementById('hero-video_3');
+        video1.play();
+        video2.play();
+        video3.play();
+        video1m.play();
+        video2m.play();
+        video3m.play();
+    }
 </script>
 
 </body>
