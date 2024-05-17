@@ -970,8 +970,8 @@ body {
       } 
 
   .home-mobile-child {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 40px;
     width: 100% ;
     height: 100vh;
     object-fit: cover;
@@ -1302,7 +1302,7 @@ body {
     width: 100%;
     position: relative;
     border-radius: var(--br-3xs);
-    height: 120px;
+    height: 170px;
     object-fit: cover;
   }
   .our-vision-line-mob {
@@ -1988,6 +1988,9 @@ body {
   .small-number-card-mob {
     width: 50%;
     height:100px;
+  }
+  .footer-container-mob {
+    margin-bottom: 80px;
   }
 }
 @media (min-width:1500px) {
