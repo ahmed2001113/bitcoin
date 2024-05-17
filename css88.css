@@ -1402,7 +1402,6 @@ body {
   .our-vision-container-mob {
     width: 100%;
     align-items: flex-start;
-    gap: var(--gap-base);
   }
   .our-vision-section-mob {
     width: 100%;
